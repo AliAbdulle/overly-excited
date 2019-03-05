@@ -28,10 +28,7 @@ const addExcitement = (theWordArray, puncuation, numberOfTimes) => {
 }
 
 //Invoke the function and pass in the array
-<<<<<<< HEAD
 addExcitement(sentence, "")
-=======
->>>>>>> 8182865a9bc6c67bd5c71b2548192b1b84473a50
 addExcitement(sentence, "!", 1)
-addExcitement(sentence, "? ", 1)
-addExcitement(sentence, "* ", 4)
+addExcitement(sentence, "?", 1)
+addExcitement(sentence, "*", 4)
