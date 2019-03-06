@@ -28,7 +28,12 @@ const addExcitement = (theWordArray, puncuation, numberOfTimes) => {
 }
 
 //Invoke the function and pass in the array
+
+//Create an addExcitement function that should console.log() rows of words. It should take an array containing the words of a sentence and output them in the developer console.
 addExcitement(sentence, "")
+//Add logic to addExcitement that places an exclamation point (!) after every third word. Read the following English statement and write the equivalent in JavaSript code to make it work.
 addExcitement(sentence, "!", 1)
+//Add a new argument to the function so that a developer can specify which character should be displayed instead of it always being an exclamation point.
 addExcitement(sentence, "?", 1)
+//Add a new argument to the function so that a developer can specify how many times the special character should be added.
 addExcitement(sentence, "*", 4)
